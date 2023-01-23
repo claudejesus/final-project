@@ -1,0 +1,118 @@
+{
+  "serverRows": [
+    {
+      "serverId": 2,
+      "serverNameState": "server 20",
+      "serverCodeState": "345676",
+      "id": 2
+    },
+    {
+      "serverId": 3,
+      "serverNameState": "server2300",
+      "serverCodeState": "336666",
+      "id": 3
+    },
+    {
+      "serverId": 4,
+      "serverNameState": "Server 3",
+      "serverCodeState": "111111",
+      "id": 4
+    },
+    {
+      "serverNameState": "server 2",
+      "serverCodeState": "345676",
+      "id": 6
+    },
+    {
+      "serverNameState": "server 300",
+      "serverCodeState": "303040",
+      "id": 7
+    }
+  ],
+  "userRows": [
+    {
+      "allDetails": [],
+      "userName": "Umwiza EEE",
+      "email": "mhthodol@gmail.com",
+      "phone": "45678947666",
+      "userPassword": "Mhthodol@2022%",
+      "id": 1,
+      "role": "ADMIN"
+    },
+    {
+      "userName": "claude Niyigaba",
+      "email": "claude@gmail.com",
+      "phone": "1234567888",
+      "userPassword": "Claude@2022%",
+      "role": "USER",
+      "id": 3
+    },
+    {
+      "userName": "Umwiza Denis",
+      "email": "umwiza@gmail.com",
+      "phone": "1234567890",
+      "userPassword": "Umwiza@2022%",
+      "role": "USER",
+      "id": 4
+    },
+    {
+      "userName": "Uwase",
+      "email": "1234@gmail.com",
+      "phone": "strato",
+      "userPassword": "12345",
+      "role": "USER",
+      "id": 5
+    }
+  ],
+  "logs": [
+    {
+      "timeStamp": "29/12/2022 01:15:27",
+      "user": "muhire416@gmail.com",
+      "server": "2",
+      "action": "close",
+      "id": 4
+    },
+    {
+      "timeStamp": "29/12/2022 01:15:27",
+      "user": "muhire416@gmail.com",
+      "server": "2",
+      "action": "open",
+      "id": 5
+    },
+    {
+      "timeStamp": "29/12/2022 01:15:28",
+      "user": "muhire416@gmail.com",
+      "server": "2",
+      "action": "close",
+      "id": 6
+    },
+    {
+      "timeStamp": "04/01/2023 18:38:48",
+      "user": "mhthodol@gmail.com",
+      "server": "2",
+      "action": "open",
+      "id": 7
+    },
+    {
+      "timeStamp": "04/01/2023 18:40:41",
+      "user": "mhthodol@gmail.com",
+      "server": "2",
+      "action": "close",
+      "id": 8
+    },
+    {
+      "timeStamp": "04/01/2023 18:42:03",
+      "user": "mhthodol@gmail.com",
+      "server": "2",
+      "action": "open",
+      "id": 9
+    },
+    {
+      "timeStamp": "04/01/2023 18:42:08",
+      "user": "mhthodol@gmail.com",
+      "server": "2",
+      "action": "close",
+      "id": 10
+    }
+  ]
+}

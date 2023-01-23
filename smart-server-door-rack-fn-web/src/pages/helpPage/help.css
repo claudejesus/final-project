@@ -1,0 +1,108 @@
+.cardsConainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1rem;
+}
+.iframeContainer{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap:1rem; 
+}
+.openAndClose{
+    display: flex;
+    flex-direction: column;
+
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+    
+}
+.buttonContainer .btn{
+    width: 100%;
+}
+.point{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    font-size: x-large;
+    font-weight: 900;
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+.serverOFF{
+    
+    display: flex;
+    gap: 1.3rem;
+   
+}
+.on{
+  
+    background-color: var(--primary-color)
+}
+#IdPoint1{
+    width: 60px;
+    height: 60px;
+    transition: all 0.2s;
+}
+#IdPoint2{
+    transition: all 0.5s;
+    width: 50px;
+    height: 50px;
+}
+#IdPoint3{
+    transition: all 0.8s;
+    width: 40px;
+    height: 40px;
+}
+#IdPoint4{
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+}
+#IdPoint5{
+    width: 50px;
+    transition: all 1.5s ;
+    height: 50px;
+}
+#IdPoint6{
+    width: 60px;
+    height: 60px;
+    transition: all 2s;
+}
+.serverON{
+    display: flex;
+    gap: 1.3rem;
+}
+.overIframe{
+    background-color: blue;
+}
+.card-title , .status{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--color-secondary);
+    box-shadow: var(--second-box-shadow);
+}
+
+.status .on , .off{
+    font-size: xx-large;
+    font-weight: 800;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    padding: 1rem;
+    border: 1px dashed var(--color-secondary);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */
+
+}

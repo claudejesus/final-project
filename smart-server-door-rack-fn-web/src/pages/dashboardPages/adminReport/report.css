@@ -1,0 +1,10 @@
+.report--container{
+    margin-top: 8rem;
+    background-color: var(--primary-color);
+    padding: 3rem;
+    border-radius: 1rem;
+    color: var(--color-secondary);
+}
+.detail span{
+    color: rgb(180, 178, 174);
+}

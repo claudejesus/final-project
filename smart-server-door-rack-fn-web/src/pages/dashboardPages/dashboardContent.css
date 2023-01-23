@@ -1,0 +1,121 @@
+.Usercontainer{
+    display: grid;
+    grid-template-columns:1fr 4fr;
+    z-index: 10;
+    width: 100vw;
+    /* background-color: blue; */
+    position: relative;
+    padding-top: 6rem;
+}
+.AllDataOverViewContainer{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin-top: 2rem;
+ 
+    gap:1rem;
+}
+.availableContent{
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-items: center;
+    border-radius: 10px;
+    align-items:center;
+    padding: 0.5rem 2rem;
+    box-shadow: var(--box-shadow);
+    scroll-behavior:none;
+}
+.availableContent h3{
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: row;
+   
+}
+.availableContent p{
+    font-size: xx-large;
+    font-weight: 900;
+    color:var(--primary-color);
+}
+.userListContainer img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+
+}
+.userListContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+}
+.dataInTable{
+    background-color:var(--color-secondary);
+    /* background-color: red; */
+    margin:1rem 0rem 0rem 0rem;
+    padding:1rem 2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+
+.actionContainerButtons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+}
+.editButton{
+    cursor: pointer;
+    color:var(--primary-color);
+}
+.editButtonPage{
+    margin-top: 2rem;
+}
+.editButtonPage:hover{
+    background-color:var(--primary-color);
+    color:var(--color-secondary);
+    cursor: pointer
+};
+.deleteButton{
+    cursor: pointer;
+    color:var(--color-danger)
+}
+.serverContentContainer{
+    width: 100%;
+}
+.titleHeader{
+    margin-top: 2rem 0;
+    padding: 1rem 0rem;
+}
+.serverContentContainer{
+    margin-top: -3rem;
+}
+.addServerButton{
+    margin-top: 3rem;
+    cursor: pointer;
+    color:black;
+    font-weight: 900;
+
+}
+.addServerButton:hover{
+    background-color: var(--primary-color);
+    color:var(--color-secondary);
+}
+.addServerContainer{
+    margin-top: 3rem;
+}
+.user-message{
+    margin: 3rem 0rem;
+}
+.togleOnOff{
+    width: 100%;
+}
+.deatails-container{
+    background-color: var(--primary-color);
+}
+.detailImage{
+    width: 60%;
+    height: 10%;
+}
+
+/* AboutCreateUSer///////////////////////////////////////// */

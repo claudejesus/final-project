@@ -1,0 +1,26 @@
+.detailImage{
+    width: 20%;
+    height: 20%;
+}
+.deatails-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    color:var(--color-secondary)
+}
+.deatails-container span{
+    font-weight: 100;
+    color:rgb(197, 193, 193);
+}
+.disabledInput:hover{
+    cursor:progress;
+}
+.btn-container{
+    display: flex;
+    gap:1rem;
+    margin-top: 1rem;
+}

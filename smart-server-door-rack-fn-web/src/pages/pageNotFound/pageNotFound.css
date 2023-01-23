@@ -1,0 +1,9 @@
+.ErrorPageNotFount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imageContainer img{
+    width: 500px;
+}

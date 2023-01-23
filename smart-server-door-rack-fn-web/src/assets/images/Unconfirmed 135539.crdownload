@@ -1,0 +1,25 @@
+<?xml version="1.0"?><svg width="686.6666666666666" height="336" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1694">
+   <stop stop-color="#ffffff" stop-opacity="0" offset="0" id="stop1695"/>
+   <stop stop-color="#ffffff" offset="1" id="stop1696"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1683">
+   <stop stop-color="#0c1fdb" offset="0" id="stop1684"/>
+   <stop stop-color="#062d76" offset="1" id="stop1685"/>
+  </linearGradient>
+  <linearGradient y2="0.022913" y1="0.977087" xlink:href="#linearGradient1683" x2="0.505376" x1="0.505376" id="linearGradient1700"/>
+  <linearGradient y2="0.985719" y1="0.021696" xlink:href="#linearGradient1683" x2="0.501704" x1="0.501704" id="linearGradient1701"/>
+  <linearGradient y2="-0.0842" y1="0.771716" xlink:href="#linearGradient1694" x2="0.508533" x1="0.508533" id="linearGradient1702"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer1">
+   <g transform="matrix(-1, 0, 0, 1, 643.514, 0)" id="g1269">
+    <path fill="url(#linearGradient1700)" fill-rule="evenodd" stroke="url(#linearGradient1701)" stroke-width="8.75" stroke-linejoin="round" stroke-miterlimit="4" id="path1061" d="m13.01923,158.509735l174.562176,142.974609l0,-70.86615l442.913345,0l0,-141.7323l-442.913345,0l0,-70.866119l-174.562176,140.48996z"/>
+    <path fill="url(#linearGradient1702)" fill-rule="evenodd" stroke-width="8.75" stroke-miterlimit="4" id="path1691" d="m30.395279,159.272125l146.490158,25.636719l442.050476,0l0,-83.749298l-442.050476,0l0,-59.149445l-146.490158,117.262024z"/>
+   </g>
+  </g>
+  <text transform="matrix(8.45371, 0, 0, 3.94775, -1045.21, -422.583)" xml:space="preserve" text-anchor="middle" font-family="Arial" font-size="24" id="svg_1" y="155.226833" x="152.225973" stroke-width="0" stroke="#000000" fill="#ffffff">Next</text>
+ </g>
+</svg>
